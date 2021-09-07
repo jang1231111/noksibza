@@ -486,7 +486,7 @@ class ScanscreenState extends State<Scanscreen> {
   // 00:00:00
   void startTimer() {
     if (isStart == true) return;
-    const oneSec = const Duration(minutes: 30);
+    const oneSec = const Duration(minutes: 15);
     const fiveSec = const Duration(seconds: 5);
     _timer = new Timer.periodic(
       oneSec,
